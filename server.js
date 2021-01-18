@@ -9,7 +9,7 @@ function sleep(ms) {
 
 async function main() {
   console.log(`Hello ${name}, i will print a message for ${loops} times`);
-  let i = 1;
+  let i = 0;
   while(i < loops) {
     console.log("Microservices rock!");
     await sleep(5000);
